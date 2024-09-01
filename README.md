@@ -18,16 +18,18 @@ Running the Application
 
     Clone the repository to your local machine:
 
-    bash
-
+```bash
 git clone https://github.com/cheaderthecoder/calculator.git
+
 cd calculator
+```
 
 Build the project:
 
-bash
+```bash
 
 dotnet build
+```
 
 Run the application:
 
