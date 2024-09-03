@@ -18,16 +18,16 @@ internal class ConsoleCalculator
             Console.Clear();
             Console.WriteLine
             (@"
-            Welcome Enter in What You Want to do
-            enter + for Addition
-            enter - for Subtraction
-            enter / for Division
-            enter * for multiplication
-            enter x for multiplication
+            Enter what Math oporation:
+
+            1.Addition
+            2.Subtraction
+            3.Division
+            4.multiplication
             ");
 
             string Oporation = Console.ReadLine()?.Trim();
-            Console.WriteLine("Write your Equation...");
+            Console.WriteLine("Write your Equation (aka write 1[enter] 2[enter]) = 3 if you chose Addition...");
 
             num1 = Convert.ToInt32(Console.ReadLine());
             num2 = Convert.ToInt32(Console.ReadLine());
@@ -43,32 +43,28 @@ internal class ConsoleCalculator
             int num3 = 0;
             switch (Oporation)
             {
-                case "+":
+                case "1":
                     num3 = num1 + num2;
                     Console.WriteLine("\n" + num3 + "\n");
                     break;
-                case "-":
+                case "2":
                     num3 = num1 - num2;
                     Console.WriteLine("\n" + num3 + "\n");
                     break;
 
-                case "*":
-                    num3 = num1 * num2;
-                    Console.WriteLine("\n" + num3 + "\n");
-                    break;
-
-                case "x":
-                    num3 = num1 * num2;
-                    Console.WriteLine("\n" + num3 + "\n");
-                    break;
-
-                case "/":
+                case "3":
                     num3 = num1 / num2;
+                    Console.WriteLine("\n" + num3 + "\n");
+                    break;
+
+                case "4":
+                    num3 = num1 * num2;
                     Console.WriteLine("\n" + num3 + "\n");
                     break;
             }
 
             return num3;
         }
+
     }
 }
