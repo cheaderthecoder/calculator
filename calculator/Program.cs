@@ -27,7 +27,7 @@ internal class ConsoleCalculator
             ");
 
             string Oporation = Console.ReadLine()?.Trim();
-            Console.WriteLine("Write your Equation (aka write 1[enter] 2[enter]) = 3 if you chose Addition...");
+            Console.WriteLine("Write your Equation (aka write 1[enter] 2[enter]) = 3 if you chose Addition (to learn more checkout https://github.com/cheaderthecoder/calculator)...");
 
             num1 = Convert.ToInt32(Console.ReadLine());
             num2 = Convert.ToInt32(Console.ReadLine());
