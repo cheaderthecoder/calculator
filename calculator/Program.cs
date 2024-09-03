@@ -37,8 +37,9 @@ internal class ConsoleCalculator
             Console.WriteLine("do you want to continue (Y/N)");
             Answer = Console.ReadLine();
         }
+    }
 
-        static int GetValue(string Oporation, int num1, int num2)
+            static int GetValue(string Oporation, int num1, int num2)
         {
             int num3 = 0;
             switch (Oporation)
@@ -65,6 +66,4 @@ internal class ConsoleCalculator
 
             return num3;
         }
-
-    }
 }
