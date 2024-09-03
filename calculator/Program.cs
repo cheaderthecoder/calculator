@@ -18,7 +18,7 @@ internal class ConsoleCalculator
             Console.Clear();
             Console.WriteLine
             (@"
-            Enter what Math oporation:
+            Enter what Math oporation to do:
 
             1.Addition
             2.Subtraction
