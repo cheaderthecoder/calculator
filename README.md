@@ -1,6 +1,6 @@
 # Calculator
 
-This is a simple console-based calculator application written in C# using .NET. The calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+This is a simple console-app calculator written in C# using .NET. The calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
 Features
 
     Addition: Adds two numbers.
