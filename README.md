@@ -18,7 +18,7 @@ Running the Application
 
     Clone the repository to your local machine:
 
-```bash
+```
 git clone https://github.com/cheaderthecoder/calculator.git
 
 cd calculator
