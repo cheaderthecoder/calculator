@@ -37,7 +37,7 @@ Run the application:
 dotnet run
 ```
 
-## How does Equations work?
+## How do Equations work?
 In this calculator program you can add Equations then the Answer, I.E. for substracting 1 from 2 you would say
 ```bash
 2 // for substract mode
