@@ -33,7 +33,7 @@ dotnet build
 
 Run the application:
 
-```bash
+```
 dotnet run
 ```
 
