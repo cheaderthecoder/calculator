@@ -26,7 +26,7 @@ cd calculator
 
 Build the project:
 
-```bash
+```
 
 dotnet build
 ```
