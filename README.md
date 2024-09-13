@@ -37,13 +37,5 @@ Run the application:
 dotnet run
 ```
 
-## How do Equations work?
-In this calculator program you can add Equations then the Answer, I.E. for substracting 1 from 2 you would say
-```bash
-2 // for substract mode
-2
-1
-```
- 
 >### <h2 style="color:red">Important</h1>
 > In Substract mode sudstracting is from first number to secound number aka the program subtracts from the first inputed number the secound number.
