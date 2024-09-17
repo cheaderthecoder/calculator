@@ -20,7 +20,9 @@ Running the Application
 
 ```
 git clone https://github.com/cheaderthecoder/calculator.git
-
+```
+and
+```
 cd calculator
 ```
 
