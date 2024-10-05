@@ -38,6 +38,3 @@ Run the application:
 ```
 dotnet run
 ```
-
->### <h2 style="color:red">Important</h1>
-> In Substract mode sudstracting is from first number to secound number aka the program subtracts from the first inputed number the secound number.
